@@ -1,0 +1,125 @@
+
+* {
+  box-sizing: border-box;
+
+}
+
+.p{
+  /* font-family: 'Roboto', sans-serif; */
+}
+ {
+  margin:0;
+  font-family: Arial;
+  margin-left:40px;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 45%; /* IE10 */
+  flex: 25%;
+  max-width: 30%;
+  padding:0 4px;  column-gap: 40px;
+  box-shadow:3px 8px #f6f6f6;
+}
+
+.one{margin-top:90px ; height:170px; background:#f1f3de; width:200px; margin-right:20px;}
+.two{height:150px;
+background:#f1f3de;}
+.three{ margin-top:90px; height:170px; background:#f1f3de; margin-left:19px;}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 70%;
+  box-shadow:2px 2px grey;
+
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 100%;
+    margin-left:120px;
+    margin-right:80px;}
+
+    .one{margin-top:90px ; height:170px; background:#f1f3de; width:200px; margin-right:20px;
+      <style>
+ > }
+    .two{height:150px;
+    background:#f1f3de;}
+    .three{ margin-top:90px; height:170px; background:#f1f3de; margin-left:19px;}
+  }
+
+
+.fonts{font-size: 10px;}
+
+ .div-1 {
+      background:#f1f3de; width:100%; margin-left:10;  vertical-align: middle; height:190px;}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Header -->
+<div class="header">
+<h2>Reliable,efficient delivery</h2>
+  <h1>Powered by Technology</h1>
+  <p>Our artfificial intelligience powered tools use millions of project data points to ensure thta your project is succesful</p>
+</div
+
+
+<body>
+<div class="row">
+  <div class="column one">
+  <h1>supervisor</h1>
+  <p>Maintain activity to identify project roadblocks.</p>
+  </div>
+
+  <div class="column two">
+     <h1>Team Builder</h1>
+  <p>scan our talents network to create the optimal teams for your project.</p>
+     <div class="div-1">  <h1>Karma</h1>
+  <p>Regularly evaluates our students to ensure quality.</p> </div>
+  </div>
+  <div class="column three">
+
+     <h1>Calculator</h1>
+  <p>uses data from past projects to provide better delivery estimates.</p>
+
+  </div>
+</div>
